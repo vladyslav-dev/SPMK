@@ -1,0 +1,302 @@
+﻿
+header {
+    background: url(../img/products/background-product.png) no-repeat center top;    
+    min-height: 500px;
+    position: relative;
+}
+
+.header__title {
+  margin-top: 300px;
+  padding-bottom: 5px;
+  border-bottom: 2.5px solid #FFD300;
+}
+
+.header__title h1 {
+  color: #FFD300;
+  font-size: 21px;
+  font-family: 'Aleo' sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.header__title p {
+  color: white;
+  font-size: 29px;
+  font-family: "Roboto" sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+    padding: 55px 0;
+}
+
+.prod_continer {
+    max-width: 1570px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    position: relative;
+}
+
+.name h2 {
+    font-family: "Roboto" sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #FFD300;
+    padding-bottom: 13px;
+    color: #000000;
+}
+
+.name p{
+    font-family: "Roboto" sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    letter-spacing: 0.8px;
+}
+
+.prod__content{
+    width: 100%;
+}
+
+.text_settings {
+    
+    width: 300px;
+    align-items: center;
+    display: flex;  
+}
+
+.text_settings h4 { 
+
+    font-family: Bebas Neue;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 10px;
+}
+
+.text_settings img {
+    width: 27px;
+    height: 27px;
+    margin-right: 6px;
+} 
+
+.tabel { 
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: column; 
+}
+
+.tabel__row:last-child {
+    border-bottom: none;
+}
+
+.tabel__row {
+    /* font-family: PartnerCondensed; */
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    border-bottom: 1px solid black;
+   
+}
+
+.tabel__row__cell {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    padding: 5px;
+}
+
+
+.tabel__row__cell-left{
+    border-left: 1px solid black;
+    padding-left: 20px ;
+    
+}
+
+.sim-slider-image {
+    width: 100%; 
+    height: 250px;
+  }
+  
+  .sim-slider {
+    width: 50%;
+    height: auto;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: 20px auto;
+    padding: 30px 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+  }
+  
+  /* General styles */
+  .sim-slider {
+    position: relative;
+  }
+  
+  .sim-slider-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+  }
+  
+  .sim-slider-element {
+    width: 100%;
+    transition: opacity 1s ease-in;
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    display: block;
+  }
+  
+  /* Navigation item styles */
+  div.sim-slider-arrow-left,
+  div.sim-slider-arrow-right {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0.6;
+    z-index: 4;
+  }
+  
+  div.sim-slider-arrow-left {
+    left: 5px;
+    top: 45%;
+    display: block;
+    background: url("../img/products/arrow-left.png") no-repeat;
+    background-size: contain;
+  }
+  
+  div.sim-slider-arrow-right {
+    right: 5px;
+    top: 45%;
+    display: block;
+    background: url("../img/products/arrow-right.png") no-repeat;
+    background-size: contain;
+  }
+  
+  div.sim-slider-arrow-left:hover {
+    opacity: 1.0;
+  }
+  
+  div.sim-slider-arrow-right:hover {
+    opacity: 1.0;
+  }
+
+@media(max-width: 1200px) {
+
+    .prod_continer {
+        flex-direction: column;
+    } 
+
+    .sim-slider {
+      min-width: auto;
+      margin: 0 auto;
+      width: 500px;
+    }
+
+    .prod_continer {
+      padding: 0 16px;
+    }
+
+    .name {
+      margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 580px) {
+
+  .section {
+    padding-top: 15px;
+  }
+  
+  .sim-slider {
+    width: auto;
+    padding: 10px 35px;
+  }
+
+  div.sim-slider-arrow-left,
+  div.sim-slider-arrow-right {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media(max-width: 445px) {
+
+  .header {
+    padding-bottom: 30px;
+  }
+
+  .header__title h1 {
+    font-size: 16px;
+  }
+
+  .header__title p {
+    font-size: 20px;
+  }
+}
+
+@media(max-width: 400px) {
+
+  .sim-slider {
+    width: auto;
+    padding: 0;
+    margin-bottom: 45px;
+  }
+
+  div.sim-slider-arrow-left {
+    top: auto;
+    left: 23px;
+    bottom: -38px;
+  }
+
+  div.sim-slider-arrow-right {
+    top: auto;
+    right: 23px;
+    bottom: -38px;
+  }
+
+  .name h2 {
+    font-size: 19px;
+  }
+
+  .name p{
+    font-size: 13px;  
+  }
+
+  .text_settings {
+    width: auto;
+  }
+
+  .text_settings h4 {
+    font-size: 16px;
+  }
+
+  .tabel__row {
+    font-size: 13px;
+  }
+
+  
+  header {
+    min-height: 300px;
+  }
+ 
+
+}
