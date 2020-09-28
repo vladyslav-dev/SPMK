@@ -5,14 +5,18 @@ header {
     position: relative;
 }
 
+.background-fasad {
+    background: url(../img/products/background-product2.png) no-repeat center top;   
+}
+
 .header__title {
   margin-top: 300px;
   padding-bottom: 5px;
-  border-bottom: 2.5px solid #FFD300;
+  border-bottom: 2.5px solid #E0562E;
 }
 
 .header__title h1 {
-  color: #FFD300;
+  color: #E0562E;
   font-size: 21px;
   font-family: 'Aleo' sans-serif;
   font-weight: normal;
@@ -48,7 +52,7 @@ header {
     font-size: 25px;
     line-height: 30px;
     text-transform: uppercase;
-    border-bottom: 3px solid #FFD300;
+    border-bottom: 3px solid #E0562E;
     padding-bottom: 13px;
     color: #000000;
 }
@@ -67,7 +71,7 @@ header {
 
 .text_settings {
     
-    width: 300px;
+    width: auto;
     align-items: center;
     display: flex;  
 }
@@ -281,9 +285,7 @@ header {
     font-size: 13px;  
   }
 
-  .text_settings {
-    width: auto;
-  }
+  
 
   .text_settings h4 {
     font-size: 16px;

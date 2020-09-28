@@ -39,7 +39,8 @@ div {
 }
 
 header {
-    background: url(../img/header-background.png) no-repeat center top;    
+    background: url(../img/header-background.png) no-repeat center top; 
+
     height: 100vh;
     min-height: 750px;
     position: relative;
@@ -74,13 +75,13 @@ header {
     margin-bottom: 100px;
     width: 257px;
     height: 60px;
-    background-color: #FFD300;
+    background-color: #E0562E;
     border: none;
     border-radius: 20px;
     outline: none;
     font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: rgb(228, 228, 228);
 }
 
 .header__button:hover {
@@ -89,19 +90,9 @@ header {
     box-shadow: 0 0 12px 3px rgba(175, 175, 175, 0.75);
 }
 
-
-
-
-
-
 #company {
     padding-top: 50px;
-    background: url(../img/company.png) no-repeat center;
-    background-position-x: 20%;
-    background-position-y: 15%;
-    height: 800px;
     padding-bottom: 10%;
-    /* background-color: #E9E9E9; */
 }
 
 .section__title h2 {
@@ -111,9 +102,9 @@ header {
 }
 
 .section__content {
-    width: 85%;
+    width: 75%;
     margin: 0 auto;
-    margin-top: 115px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -122,7 +113,7 @@ header {
 .company__img {
     flex: 0 0 50%;
     margin-right: 20px;
-    display: none;
+    margin-top: 20px;
 }
 
 .company__img img {
@@ -131,12 +122,9 @@ header {
 
 .company__text {
     width: 600px;
-    position: absolute;
-    top: 30%;
-    right: 5%;
     height: 445px;
     margin-top: 46px;
-    border-left: 7px solid #FFD300;
+    border-left: 7px solid #E0562E;
 }
 
 .company__text p {
@@ -194,7 +182,7 @@ header {
     /* font-family: 'Roboto', sans-serif; */
     font-size: 24px;
     padding: 10px;
-    border-bottom: 5px solid #FFD300;
+    border-bottom: 5px solid #E0562E;
 }
 
 .item__text p {     
@@ -261,11 +249,11 @@ header {
     font-weight: 300;
     font-size: 16px;
     line-height: 40px;
-    padding: 50px 10px 10px 10px;
+    padding: 20px 10px 10px 10px;
 }
 
 .third__button {
-    background-color: #FFD300;
+    background-color: #E0562E;
     width: 260px;
     height: 60px;
     font-size: 17px;
@@ -273,7 +261,8 @@ header {
     border-radius: 80px;
     outline: none;
     border: none;
-    margin: 95px 0 0 50px
+    margin: 95px 0 0 50px;
+    color: rgb(228, 228, 228);
 }
 
 .third__button:hover {
@@ -370,9 +359,6 @@ header {
         display: block;
     }
 
-    .company__text {
-        top: 0;
-    }
 }
 
 @media(max-width: 1650px) {
@@ -398,16 +384,11 @@ header {
 
 @media(max-width: 1450px) {
 
-    /* .header__title {
-        margin-left: 100px; 
-    } */
-
     .company__text {
         border: none;
-        border-top: 7px solid #FFD300;;
+        border-top: 7px solid #E0562E;
         padding: 0;
         margin: 0;
-        right: 0;
         position: relative;
     }
 
@@ -420,7 +401,7 @@ header {
     .section__content {
         flex-wrap: wrap;
         justify-content: center;
-        margin-top: 60px;
+        margin-top: 0px;
     }
 
     .company__img  {
@@ -457,7 +438,7 @@ header {
     .third__img_2 {
         display: block;
         width: 70%;
-        margin: 20px;
+        margin: 20px auto;
     }
 
     .third__button  {
@@ -468,6 +449,7 @@ header {
         flex: 0 0 90%;
         margin: 0 auto;
         padding: 10px;
+        padding-bottom: 100px;
     }
 
 }

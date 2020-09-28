@@ -6,9 +6,9 @@ header {
 }
 
 .header__menu .nav__list li .active_link {
-    border-bottom: 2px solid #FFD300;
+    border-bottom: 2px solid #E0562E;
     padding-bottom: 5px;
-    color: #FFD300;
+    color: #E0562E;
 }
 
 .header__title_maf {
@@ -112,7 +112,7 @@ header {
 .mafs__select-button {
     width: 32%;
     height: 55px;
-    background-color: #FFD300;
+    background-color: #E0562E;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -250,12 +250,12 @@ header {
 }
 
 .service__item .border_left {
-    border-left: 5px solid #FFD300;;
+    border-left: 5px solid #E0562E;
     margin-right: 50px;
 }
 
 .service__item .border_right {
-    border-right: 5px solid #FFD300;
+    border-right: 5px solid #E0562E;
     margin-left: 50px;
     text-align: right;
 }

@@ -49,9 +49,9 @@ header {
 }
 
 .header__menu .nav__list li .active_link {
-    border-bottom: 2px solid #FFD300;
+    border-bottom: 2px solid #E0562E;
     padding-bottom: 5px;
-    color: #FFD300;
+    color: #E0562E;
 }
 
 .header__title_panel {
@@ -87,7 +87,7 @@ header {
 }
 
 .cards h2 {
-    border-bottom: 5px solid #FFD300;
+    border-bottom: 5px solid #E0562E;
     padding-bottom: 15px;
 }
 
@@ -171,11 +171,11 @@ header {
 }
 
 .service__item .border_left {
-    border-left: 5px solid #FFD300;;
+    border-left: 5px solid #E0562E;
 }
 
 .service__item .border_right {
-    border-right: 5px solid #FFD300;
+    border-right: 5px solid #E0562E;
     text-align: right;
 }
 
@@ -201,12 +201,12 @@ header {
 @media(max-width: 1100px) {
     .header__menu .nav__list li .active_link {
         border: none;
-        color: #FFD300;
+        color: #E0562E;
     }
 
     .header__menu .nav__list li .active_link:hover {
-        border-top: 2px solid #FFD300;
-        border-bottom: 2px solid #FFD300;
+        border-top: 2px solid #E0562E;
+        border-bottom: 2px solid #E0562E;
         padding: 0;
         padding-top: 5px;      
         background-color: rgba(255, 255, 255, 0.082);     
